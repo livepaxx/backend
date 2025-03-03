@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from backend.database import update_score, get_score, reset_score
+from database import update_score, get_score, reset_score
 from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
